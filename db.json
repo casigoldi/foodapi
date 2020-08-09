@@ -1,0 +1,24 @@
+{
+  "types": [
+    {
+      "id": 1,
+      "name": "Vegetable"
+    },
+    {
+      "id": 2,
+      "name": "Fruit" 
+    },
+    {
+      "id": 3,
+      "name": "Meat
+    }
+  ],
+  "products": [
+  {
+    "id": 1,
+    "name": "Banana",
+    "description": "Some banana lorem ipsum",
+    "types": 2
+  }
+  ]
+} 
