@@ -21,42 +21,44 @@
          "name":"Fish"
       }
    },
-   "fresh":{
-      "id":1,
-      "title":"Fresh Food",
-      "url":"categories/fresh",
-      "entries":[
-         {
-            "id":1,
-            "name":"Apple",
-            "type":1,
-            "description":"Lorem ipsum"
-         },
-         {
-            "id":2,
-            "name":"Aubergine",
-            "type":3,
-            "description":"Some description"
-         }
-      ]
-   },
-   "frozen":{
-      "id":2,
-      "title":"Frozen",
-      "url":"categories/frozen",
-      "entries":[
-         {
-            "id":1,
-            "name":"Pizza",
-            "type":4,
-            "description":"Delicious pizza"
-         },
-         {
-            "id":2,
-            "name":"Tuna",
-            "type":5,
-            "description":"La tuna matata"
-         }
-      ]
+   "products":{
+      "fresh":{
+         "id":1,
+         "title":"Fresh Food",
+         "url":"categories/fresh",
+         "entries":[
+            {
+               "id":1,
+               "name":"Apple",
+               "type":1,
+               "description":"Lorem ipsum"
+            },
+            {
+               "id":2,
+               "name":"Aubergine",
+               "type":3,
+               "description":"Some description"
+            }
+         ]
+      },
+      "frozen":{
+         "id":2,
+         "title":"Frozen",
+         "url":"categories/frozen",
+         "entries":[
+            {
+               "id":1,
+               "name":"Pizza",
+               "type":4,
+               "description":"Delicious pizza"
+            },
+            {
+               "id":2,
+               "name":"Tuna",
+               "type":5,
+               "description":"La tuna matata"
+            }
+         ]
+      }
    }
 }
