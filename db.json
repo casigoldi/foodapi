@@ -1,24 +1,62 @@
 {
-  "types": [
-    {
-      "id": 1,
-      "name": "Vegetable"
-    },
-    {
-      "id": 2,
-      "name": "Fruit" 
-    },
-    {
-      "id": 3,
-      "name": "Meat"
-    }
-  ],
-  "products": [
-  {
-    "id": 1,
-    "name": "Banana",
-    "description": "Some banana lorem ipsum",
-    "types": 2
-  }
-  ]
-} 
+	types: {
+		fruit: {
+			id: 1,
+			name: "Fruit"
+		},
+		meat: {
+			id: 2,
+			name: "Meat"
+		},
+		vegetable: {
+			id: 3,
+			name: "Vegetable"
+		},
+		convience: {
+			id: 4,
+			name: "Convience"
+		},
+		fish: {
+			id: 5,
+			name: "Fish"
+		}
+	},
+	fresh: {
+		id: 1,
+		title: "Fresh Food",
+		url: "categories/fresh",
+		entries: [
+		{
+			id: 1,
+			name: "Apple",
+			type: 1,
+			description: "Lorem ipsum"
+		},
+		{
+			id: 2,
+			name: "Aubergine",
+			type: 3,
+			description: "Some description"
+		}
+		] 
+	},
+	frozen: {
+		id: 2,
+		title: "Frozen",
+		url: "categories/frozen",
+		entries: [
+		{
+			id: 1,
+			name: "Pizza",
+			type: 4,
+			description: "Delicious pizza",
+		}, 
+		{
+			id: 2,
+			name: "Tuna",
+			type: 5,
+			description: "La tuna matata",
+		}
+		]
+	}
+}
