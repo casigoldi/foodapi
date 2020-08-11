@@ -14,48 +14,53 @@
                "id":"meat",
                "name":"Meat",
                "active":false
+            },
+            {
+              "id": "vegetables",
+              "name": "Vegetables",
+              "active": false
             }
          ],
          "entries":[
             {
                "id":1,
-               "title":"Bunana",
-               "description":"Banana description Banana descriptionBanana descriptionBanana descriptionBanana description",
+               "title":"Banana",
+               "description":"Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi ",
                "type":"fruits",
                "imageUrl":"https://source.unsplash.com/300x200/?banana"
             },
             {
                "id":2,
-               "title":"Appapapa",
-               "description":"Appapapa description ppapapa descriptionppapapa descriptionppapapa descripti",
+               "title":"Apple",
+               "description":"This is a brandious description for a very green apple",
                "type":"fruits",
                "imageUrl":"https://source.unsplash.com/300x200/?apple"
             },
             {
                "id":3,
                "title":"Chicken",
-               "description":"Chicken description Chicken descriptionChicken descriptionChicken descriptionChicken description",
+               "description":"Who was first? The egg or the chicken? This is the question",
                "type":"meat",
                "imageUrl":"https://source.unsplash.com/300x200/?chicken"
             },
             {
                "id":4,
                "title":"Beef",
-               "description":"Beef description Beef descriptionBeef descriptionBeef descriptionBeef descriptionBeef description",
+               "description":"Delicious meat from super happy cows chilling all day on the lawn eating grass.",
                "type":"meat",
                "imageUrl":"https://source.unsplash.com/300x200/?steak"
             },
             {
                "id":5,
                "title":"Peaches",
-               "description":"Banana peaches Banana peaches peaches peachesdas ada sdasd description",
+               "description":"Peachpuff is a nice color you can use in CSS",
                "type":"fruits",
                "imageUrl":"https://source.unsplash.com/300x200/?peaches"
             },
             {
                "id":6,
                "title":"Plums",
-               "description":"Plumpa plumbi plumba descriotion some stuff",
+               "description":"Seasional food is something we almost forgot to cherish!",
                "type":"fruits",
                "imageUrl":"https://source.unsplash.com/300x200/?plums"
             },
@@ -63,15 +68,22 @@
                "id":7,
                "title":"Pineapple",
                "description":"Chicken description Chicken descriptionChicken descriptionChicken descriptionChicken description",
-               "type":"meat",
+               "type":"fruits",
                "imageUrl":"https://source.unsplash.com/300x200/?pineapple"
             },
             {
                "id":8,
-               "title":"Coconut",
-               "description":"Coconut description Coconut Coconut descriptionBeef descriptionBeef descriptionBeef description",
-               "type":"meat",
-               "imageUrl":"https://source.unsplash.com/300x200/?coconut"
+               "title":"Zucchini",
+               "description":"I kind of look like a cucumber. I am also a pumpkin, great isnt it?",
+               "type":"vegetables",
+               "imageUrl":"https://source.unsplash.com/300x200/?zucchini"
+            },
+            {
+               "id":9,
+               "title":"Cucumber",
+               "description":"I am almost only water and eating me is pretty good as you burn more callories eating me than I do have",
+               "type":"vegetables",
+               "imageUrl":"https://source.unsplash.com/300x200/?cucumber"
             }
          ]
       },
@@ -102,7 +114,7 @@
             {
                "id":2,
                "title":"Gambas",
-               "description":"Gabbambas description Gabbambas description Gabbambas description",
+               "description":"I need garlic, chilli and oil. Everyone will love me! Except some",
                "type":"fish",
                "imageUrl":"https://source.unsplash.com/300x200/?shrimps"
             },
@@ -115,10 +127,10 @@
             },
             {
                "id":4,
-               "title":"Ice cubes",
-               "description":"You are as cold as ice You are as cold as ice You are as cold as ice",
+               "title":"Fishsticks",
+               "description":"I am maybe fish. But actually no ones really knows. Kids love me!",
                "type":"fish",
-               "imageUrl":"https://source.unsplash.com/300x200/?icecubes"
+               "imageUrl":"https://source.unsplash.com/300x200/?fishsticks"
             }
          ]
       },
@@ -142,28 +154,28 @@
             {
                "id":1,
                "title":"Coke",
-               "description":"Who wants Coke Who wants Coke Who wants Coke Who wants Coke Who wants Coke",
+               "description":"I got a weird color but somehow people anyway love me",
                "type":"soft",
                "imageUrl":"https://source.unsplash.com/300x200/?coke"
             },
             {
                "id":2,
                "title":"Whiskey",
-               "description":"Whiskey Whiskey Whiskey Whiskey Whiskey description",
+               "description":"I used to be a drink for the rich. But with coke people also drink me nowadays everywhere",
                "type":"alcohol",
                "imageUrl":"https://source.unsplash.com/300x200/?whiskey"
             },
             {
                "id":3,
-               "title":"Scotch",
-               "description":"I scream for icecream I scream for icecream I scream for icecream I scream for icecream",
+               "title":"Vodka",
+               "description":"I am made out of potatoes. So you can get energy out of me",
                "type":"alcohol",
-               "imageUrl":"https://source.unsplash.com/300x200/?scotch"
+               "imageUrl":"https://source.unsplash.com/300x200/?vodka"
             },
             {
                "id":4,
                "title":"Beer",
-               "description":"To beer or not to beer! Beer beer! I root for Beer!",
+               "description":"Everyones favorite of course can not be missing in our list",
                "type":"alcohol",
                "imageUrl":"https://source.unsplash.com/300x200/?beer"
             }
